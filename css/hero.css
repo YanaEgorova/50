@@ -1,0 +1,32 @@
+.hero__wrapper {
+    background-image: url('../img/img4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    line-height: 1;
+    position: relative;
+}
+.hero__title {
+    font-size: 4rem;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+@media screen and (min-width: 1024px)  {
+    .hero {
+        padding: 15rem 0 15rem;
+        text-align: left;
+    }
+    .hero__title {
+        font-size:8rem;
+    }
+    .hero__link {
+        padding: 3rem 4rem;
+        font-size: 1.6rem;
+    }
+}
